@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9076" started-at="2021-11-11T13:08:49Z" finished-at="2021-11-11T13:08:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9076" started-at="2021-11-11T13:08:49Z" finished-at="2021-11-11T13:08:59Z">
+      <class name="guru.springframework.CreateSeleniumWebDriverTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:guru.springframework.CreateSeleniumWebDriverTest@55ca8de8]" name="beforeSuite" is-config="true" duration-ms="2385" started-at="2021-11-11T13:08:47Z" description="test ortamı hazırlandı." finished-at="2021-11-11T13:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:guru.springframework.CreateSeleniumWebDriverTest@55ca8de8]" name="beforeTest" is-config="true" duration-ms="358" started-at="2021-11-11T13:08:49Z" description="siteye giriş yapılabildi mi?" finished-at="2021-11-11T13:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addNewProduct()[pri:0, instance:guru.springframework.CreateSeleniumWebDriverTest@55ca8de8]" name="addNewProduct" duration-ms="1917" started-at="2021-11-11T13:08:50Z" description="product eklenebiliyor mu?" finished-at="2021-11-11T13:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewProduct -->
+        <test-method status="PASS" signature="editProduct()[pri:0, instance:guru.springframework.CreateSeleniumWebDriverTest@55ca8de8]" name="editProduct" duration-ms="6271" started-at="2021-11-11T13:08:52Z" description="product editlenebiliyor mu?" depends-on-methods="guru.springframework.CreateSeleniumWebDriverTest.addNewProduct" finished-at="2021-11-11T13:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProduct -->
+        <test-method status="PASS" signature="viewProduct()[pri:0, instance:guru.springframework.CreateSeleniumWebDriverTest@55ca8de8]" name="viewProduct" duration-ms="483" started-at="2021-11-11T13:08:58Z" description="editlenen product görüntüleniyor mu?" depends-on-methods="guru.springframework.CreateSeleniumWebDriverTest.editProduct" finished-at="2021-11-11T13:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProduct -->
+        <test-method status="PASS" signature="close()[pri:0, instance:guru.springframework.CreateSeleniumWebDriverTest@55ca8de8]" name="close" is-config="true" duration-ms="2119" started-at="2021-11-11T13:08:59Z" description="testler bitince browser pagelerini kapatır." finished-at="2021-11-11T13:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- guru.springframework.CreateSeleniumWebDriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

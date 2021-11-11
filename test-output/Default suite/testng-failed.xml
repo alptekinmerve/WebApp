@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="guru.springframework.CreateSeleniumWebDriverTest">
+        <methods>
+          <include name="addNewProduct"/>
+          <include name="editProduct"/>
+          <include name="viewProduct"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- guru.springframework.CreateSeleniumWebDriverTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
